@@ -2,4 +2,47 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  display: flex;
+  justify-content:center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  padding-top: 200px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+button {
+  background-color: white;
+  color: #25CED1;
+  padding: 10px 20px;
+  border: 1px solid #25CED1;
+  border-radius: 12px;
+  font-size: 13px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: #25CED1;
+    color: white;
+}
+
+button:focus{
+  outline:none;
+  border-color: none;
+  box-shadow: 0 0 10px #25CED1;
 }
